@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O&M – Natural Lotion & Oils</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+
+    /* NAVIGATION BAR */
+    nav {
+      background: #333;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* logo left, links right */
+    }
+
+    /* LOGO STYLE */
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .logo img {
+      height: 45px; /* adjust as needed */
+      width: auto;
+    }
+
+    /* NAV LINKS */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #f4a261;
+    }
+
+    /* HERO SECTION */
+    header {
+      background: url('https://experiencelife.lifetime.life/wp-content/uploads/2021/02/Essential-Oils-e1741381457586.jpg') no-repeat center/cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header h1 { font-size: 3rem; margin-bottom: 20px; }
+    header p { font-size: 1.2rem; max-width: 600px; margin-bottom: 20px; }
+    header a.cta {
+      background: #f4a261;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* PRODUCTS SECTION */
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+
+    /* FOOTER */
+    footer { background: #333; color: orange; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <!-- LOGO LEFT -->
+    <a href="index.html" class="logo">
+  <!-- Replace with your logo path -->
+      O&M
+    </a>
+
+   <!-- LINKS RIGHT -->
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">products</a>
+      <a href="about.html">About Us</a>
+      <a href="customerservice.html">Customer Service</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header>
+    <h1>O&M</h1>
+    <p>This is the shop page where we offer; Pure natural lotions and oils designed to nourish your skin and uplift your spirit.</p>
+    <a href="#products" class="cta">Shop Now</a>
+  </header>
+
+  <!-- PRODUCTS SECTION -->
+  <section id="products" style="padding: 60px 20px; background-color: #fafafa;">
+    <h2 style="text-align:center; font-size: 2em; margin-bottom: 10px;">Our Products</h2>
+    <p style="text-align:center; color: #666; margin-bottom: 40px;">Explore our selection of premium lotions and oils.</p>
+
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    ">
+      <!-- Product 1 -->
+      <div style="background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); overflow: hidden; text-align: center; padding: 20px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTolOPXzwxi05MeUlr5fVZP78r47Ta-VvH4XQ&s" alt="Lavender Lotion" style="width:100%; height:200px; object-fit:cover; border-radius: 8px;">
+        <h3 style="margin: 15px 0 5px;">Lavender Lotion</h3>
+        <p style="color:#555;">A soothing blend of natural oils and lavender extract to relax and rejuvenate your skin.</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div style="background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); overflow: hidden; text-align: center; padding: 20px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5srOEf1GuiNADjuCLlQoqmMwwtljJCis_3Q&s" alt="Coconut Oil" style="width:100%; height:200px; object-fit:cover; border-radius: 8px;">
+        <h3 style="margin: 15px 0 5px;">Coconut Oil</h3>
+        <p style="color:#555;">Pure, organic coconut oil perfect for nourishing skin and hair with lasting hydration.</p>
+      </div>
+
+      <!-- Product 3 -->
+      <div style="background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); overflow: hidden; text-align: center; padding: 20px;">
+        <img src="https://lovelygreens.com/wp-content/uploads/2018/07/rose-skin-cream-recipe-2.jpg" alt="Rose Body Butter" style="width:100%; height:200px; object-fit:cover; border-radius: 8px;">
+        <h3 style="margin: 15px 0 5px;">Rose Body Butter</h3>
+        <p style="color:#555;">A luxurious, creamy moisturizer infused with rose essence for smooth, glowing skin.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="margin-bottom: 300px;">
+
+    <p>&copy; 2025 O&M | All rights reserved</p>
+  </footer>
+</body>
+</html>

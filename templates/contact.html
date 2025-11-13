@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us – O&M</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+
+    /* NAVIGATION BAR */
+    nav {
+      background: #333;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* LOGO STYLE */
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .logo img {
+      height: 45px;
+      width: auto;
+    }
+
+    /* NAV LINKS */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #f4a261;
+    }
+
+    section {
+      position: relative;
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      color: white;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9JxDOw9-iZefwUPhV3Z7etNwIJryFgTd8_w&s') center/cover no-repeat;
+      filter: brightness(0.4);
+      z-index: -1;
+    }
+
+    h1, p { position: relative; z-index: 1; }
+    h1 { text-align: center; margin-bottom: 30px; }
+    p { margin-bottom: 20px; line-height: 1.6; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <!-- LOGO LEFT -->
+    <a href="index.html" class="logo">
+      O&M
+    </a>
+    <!-- LINKS RIGHT -->
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">products</a>
+      <a href="about.html">About Us</a>
+      <a href="customerservice.html">Customer Service</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+  </nav>
+  <!--Contact Me-->
+<section>
+  <h1> Contact Me</h1>  
+  <p> You can contact me by email via:khalil.douglas@hgs.hiddengeniusproject.org</p> 
